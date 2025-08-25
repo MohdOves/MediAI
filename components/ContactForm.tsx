@@ -44,7 +44,7 @@ export function ContactForm() {
       setSubmitSuccess(true);
       reset();
     } catch (error) {
-      setSubmitError("Failed to send message. Please try again later.");
+      setSubmitError("Please Login to send message");
     } finally {
       setIsSubmitting(false);
     }
