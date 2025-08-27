@@ -5,7 +5,7 @@ It connects users with multiple healthcare specialists, generates reports, and e
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo Link
 👉 [aimedi.tech](https://aimedi.tech)
 
 ---
