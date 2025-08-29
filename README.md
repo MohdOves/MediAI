@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 MedAI – AI-Powered Medical Consultant 🤖
 
-## Getting Started
+MedAI is an AI agent designed to make **medical consultations** simple, secure, and reliable.  
+It connects users with multiple healthcare specialists, generates reports, and even supports **voice-based conversations** for a more natural experience.  
 
-First, run the development server:
+---
 
+## 🌐 Live Demo Link
+👉 [aimedi.tech](https://aimedi.tech)
+
+---
+
+
+---
+
+## ✨ Features
+- 🔐 **Secure Authentication** (Clerk integration)  
+- 👩‍⚕️ **Consult with multiple specialists**:
+  - General Physician  
+  - Pediatrician  
+  - Dermatologist  
+  - Psychologist  
+  - Nutritionist  
+  - Cardiologist  
+  - ENT Specialist  
+  - Orthopedic (bone, joint, and muscle care)  
+  - Gynecologist  
+  - Dentist  
+- 🧠 **AI-powered specialist recommendation** based on symptoms  
+- 🎙️ **Voice-enabled consultations** (powered by Vapi)  
+- 📑 **Automatic report generation** after consultation  
+- 💳 **Pricing & Billing system** (currently free with test card worth $48)  
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ **Next.js** – Frontend & Backend framework  
+- 🔐 **Clerk** – Secure authentication  
+- 🤖 **Gemini API** – AI consultations  
+- 🎤 **Vapi** – Voice interaction  
+- 🗄️ **PostgreSQL** – Database for secure data storage  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/medai.git
+cd medai
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Set Environment Variables
+Create a `.env.local` file in the root directory and add:
+
+```
+NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_key
+CLERK_API_KEY=your_clerk_api_key
+GEMINI_API_KEY=your_gemini_api_key
+VAPI_API_KEY=your_vapi_api_key
+DATABASE_URL=your_postgresql_url
+```
+
+### 4. Run the Development Server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now visit 👉 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
+Contributions are welcome!  
 
-## Learn More
+1. Fork the repo  
+2. Create a new branch (`feature-branch`)  
+3. Commit your changes  
+4. Push and open a Pull Request  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 License
+This project is licensed under the **MIT License** – feel free to use and modify.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💬 Feedback
+I’d love to hear your thoughts!  
+Drop a ⭐ on the repo or share feedback via issues/DM.
