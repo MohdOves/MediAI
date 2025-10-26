@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     apple: [
       { url: "/MediAI3.svg" }
     ]
-  }
+  },
   verification: {
   google: "qS8H4Pa_vvr7LKXg_ndNbRsTbnFnQQC9Mw_qtEnvwJ4",
 },
