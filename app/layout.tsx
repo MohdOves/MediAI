@@ -37,6 +37,9 @@ export const metadata: Metadata = {
       { url: "/MediAI3.svg" }
     ]
   }
+  verification: {
+  google: "qS8H4Pa_vvr7LKXg_ndNbRsTbnFnQQC9Mw_qtEnvwJ4",
+},
 };
 
 export default function RootLayout({
