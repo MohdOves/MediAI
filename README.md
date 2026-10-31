@@ -6,7 +6,7 @@ It connects users with multiple healthcare specialists, generates reports, and e
 ---
 
 ## 🌐 Live Demo Link
-👉 [aimedi.tech](https://aimedi.tech)
+👉 [aimedi.tech](https://medi-ai-agent.vercel.app/)
 
 ---
 
